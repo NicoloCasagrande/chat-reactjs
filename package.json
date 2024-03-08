@@ -1,6 +1,6 @@
 {
   "homepage": "https://nicolocasagrande.github.io/chat-reactjs/",
-  "name": "frontend",
+  "name": "chat-reactjs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
