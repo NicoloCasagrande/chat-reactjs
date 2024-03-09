@@ -6,6 +6,7 @@ import commonjs from 'vite-plugin-commonjs';
 export default defineConfig({
   base: "/chat-reactjs/",
   build: {
+    commonjsOptions: {transformMixedEsModules: true},
     outDir: 'dist', // Specify the output directory for the production build
     assetsInlineLimit: 512 * 1024, // Adjust the inline limit for assets (optional)
   },
